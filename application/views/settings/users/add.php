@@ -21,10 +21,10 @@ echo portlet().
                         input_password('Konfirmasi Password','confirm').
                     '</div>'.
                 '</div>'.
-            form_body(['state' => 'end']).
+            form_body('end').
             form_actions().
                 input_submit('Simpan').
-            form_actions(['state' => 'end']).
+            form_actions('end').
         form(['state' => 'end'])
     ).
 portlet(['state' => 'end']);
