@@ -2,7 +2,7 @@
 
 function template($args=array()){
     $el =& get_instance();
-    $args['template'] = empty($args['template']) ? 'default' : $args['template'];
+    $args['template'] = empty($args['template']) ? 'ltr' : $args['template'];
     $args['content'] = empty($args['content']) ? 'template/empty' : $args['content'];
     $args['title'] = empty($args['title']) ? 'Judul Belum Ditentukan! Segera Perbaiki 🤪' : $args['title'];
     $args['plugin'] = empty($args['plugin']) ? array() : $args['plugin'];
